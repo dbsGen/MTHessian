@@ -7,6 +7,7 @@ use MTHessian as the original hessianKit.first we get the connection.
                                         URLWithString:IMHessianAPI]\
                                         protocol:@protocol(DMHessianProxy)]
 then we have two ways to get the request.
+
 1.by the method name:
 
     ASIHTTPRequest *request = [IMProxyEx requestFor:@"methodName"     
